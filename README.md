@@ -3,6 +3,18 @@
 
 <p>1. typeof用来判断基本类型比较准确，对于引用类型，除function外均判定为object；
 instanceof利用原型链进行判断，不能判断基本类型。</p>
-<p> 2.手写instanceof：见jsrun。</p>
+<p> 2.手写instanceof：见jsrun。
+  <pre>
+  function myinstanceof(left,right){
+    let proto = left.__proto__;
+    let prototype = right.prototype;
+    while(true) {
+      if(proto === null) return false;
+      if(proto === prototype) return true;
+      proto = proto.__proto__;
+    }
+  }
+  </pre>
+</p>
 
 
