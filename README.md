@@ -16,5 +16,21 @@ instanceof利用原型链进行判断，不能判断基本类型。</p>
   }
   </pre>
 </p>
-
+<p>
+3.对象的类型转换：调用内置的[[ToPrimitive]]函数，顺序为：Symbol.toPrimitive > valueOf > toString
+  <pre>
+  let a = {
+  valueOf() {
+    return 0
+  },
+  toString() {
+    return '1'
+  },
+  [Symbol.toPrimitive]() {
+    return 2
+  }
+}
+1 + a // => 3
+  </pre>
+</p>
 
