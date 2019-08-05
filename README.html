@@ -35,11 +35,15 @@ instanceof利用原型链进行判断，不能判断基本类型。</p>
 </p>
 <p>
   4. slice,substring,substr:
-  <table>
+  <table style="textAlign:center">
     <tr><td>函数</td><td>第一个参数</td><td>第二个参数</td><td>是否接受负值</td></tr>
     <tr><td>slice</td><td>start</td><td>stop</td><td>true</td></tr>
     <tr><td>substring</td><td>start</td><td>stop</td><td>false</td></tr>
     <tr><td>substr</td><td>start</td><td>length</td><td>true</td></tr>
   </table>
+</p>
+<p>
+  5.Object.keys()和for...in <br>
+  Object.keys(),Object.values(),Object.entries()都是返回对象自身可枚举的属性键值；for...in不仅可以循环枚举自身属性，还可以枚举原型链上的属性。
 </p>
 
