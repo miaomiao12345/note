@@ -46,4 +46,10 @@ instanceof利用原型链进行判断，不能判断基本类型。</p>
   5.Object.keys()和for...in <br>
   Object.keys(),Object.values(),Object.entries()都是返回对象自身可枚举的属性键值；for...in不仅可以循环枚举自身属性，还可以枚举原型链上的属性。
 </p>
-
+<p>
+6.不管给函数bind几次，函数中的this永远由第一次bind决定
+</p>
+<p>
+7.Object.assign({},a) 只会拷贝所有的属性值到新的对象中，如果属性值是对象的话，拷贝的是地址，所以并不是深拷贝.a={...b}同Object.assign（）;
+  [a] = [b] , const {a} = b(a = b.a) 为浅拷贝。
+</p>
