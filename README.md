@@ -33,4 +33,13 @@ instanceof利用原型链进行判断，不能判断基本类型。</p>
 1 + a // => 3
   </pre>
 </p>
+<p>
+  4. slice,substring,substr:
+  <table>
+    <tr><td>函数</td><td>第一个参数</td><td>第二个参数</td><td>是否接受负值</td></tr>
+    <tr><td>slice</td><td>start</td><td>stop</td><td>true</td></tr>
+    <tr><td>substring</td><td>start</td><td>stop</td><td>false</td></tr>
+    <tr><td>substr</td><td>start</td><td>length</td><td>true</td></tr>
+  </table>
+</p>
 
