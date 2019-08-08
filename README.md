@@ -57,3 +57,20 @@ instanceof利用原型链进行判断，不能判断基本类型。</p>
 8. es5和es6继承的区别：<br>
 es5先创建子类，再实例化父类并添加到子类this中<br>
 es6先创建父类，调用super方法访问父类后，再通过修改this实现继承</p>
+<p>
+9. css动画和重排重绘<br>
+  尽量使用transform代替left、top等，尽量不使用setTimeout和setInterval。必要时可以创建图层减少对其他元素的影响。
+  https://segmentfault.com/a/1190000000490328
+</p>
+<p>
+10. 移动端web页面适配<br>
+  viewport视口：<br>
+  1)visual viewport : 屏幕宽度，document.innerWidth/Height;<br>
+  2)layout viewport : DOM宽度, document.documentElement.clientWidth/Height;<br>
+  3)ideal viewport : 屏幕宽度等于DOM宽度 <meta name="viewport" content="width=device-width,initial-scale=1"><br>
+  4)关系： (visual viewport) = (layout viewport) * scale<br>
+  所谓的一倍屏、二倍屏(Retina)、三倍屏，指的是设备以多少物理像素来显示一个CSS像素<br>
+  设备像素比(dpr) ＝ 物理像素 / 设备独立像素<br>
+  获取当前设备的dpr：window.devicePixelRatio<br>
+  em相对于父元素，rem相对于根元素<br>
+</p>
