@@ -74,3 +74,9 @@ es6先创建父类，调用super方法访问父类后，再通过修改this实�
   获取当前设备的dpr：window.devicePixelRatio<br>
   em相对于父元素，rem相对于根元素<br>
 </p>
+<p>
+11. 图片按需加载：1）js监听页面滚动；2）intersectionObserver监听；3）懒加载组件；4）loading属性（loading=lazy）<br>
+</p>
+<p>
+12. 解决同一张图片在高分辨率屏幕上显示模糊问题：1）媒体查询，使用不同大小的图片；2）利用img的srcset属性（srcset="bg.png 1x;bg@2x.png 2x"）
+</p>
