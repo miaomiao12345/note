@@ -80,3 +80,9 @@ es6先创建父类，调用super方法访问父类后，再通过修改this实�
 <p>
 12. 解决同一张图片在高分辨率屏幕上显示模糊问题：1）媒体查询，使用不同大小的图片；2）利用img的srcset属性（srcset="bg.png 1x;bg@2x.png 2x"）
 </p>
+<p>
+13. 性能优化：https://www.cnblogs.com/xiaohuochai/p/9178390.html  +  js代码优化
+</p>
+<p>
+14. setTimeout做动画的缺点：1）回调被加到任务队列里，通常会比预计时间晚一点执行。2）时间间隔固定，
+</p>
