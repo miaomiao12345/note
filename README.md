@@ -98,3 +98,7 @@ es6先创建父类，调用super方法访问父类后，再通过修改this实�
   2）使用createDocumentFragment<br>
   3）虚拟滚动：只渲染可视区域，当页面滚动到的时候再进行替换。<br>
 </p>
+<p>
+17.实现长连接的三个方式：<br>
+  1）http协议：从http1.1之后默认发起的就是长连接，http1.0需要在请求头上添加Connection:keep-alive<br>
+  2）</p>
