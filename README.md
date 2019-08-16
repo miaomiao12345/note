@@ -116,4 +116,7 @@ es6先创建父类，调用super方法访问父类后，再通过修改this实�
     @import('mycss.css))
   </style></pre>
   4）连接式：在网页主体装载之前装载css，网页从一开始显示就是带样式的
-  <pre><link href="mystyle.css" rel="stylesheet" type="text/css"/></pre></p>
+  <pre>
+  '<link href="mystyle.css" rel="stylesheet" type="text/css"/>'
+  </pre>
+  </p>
