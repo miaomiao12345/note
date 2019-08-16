@@ -107,4 +107,13 @@ es6先创建父类，调用super方法访问父类后，再通过修改this实�
 <p>
 18. css阻止鼠标事件：pointer-events </p>
 <p>19. 前后端通信的三种方式：1）ajax；2）websocket；3）eventSource</p>
-<p></p>
+<p>20. 引入css的几种方式：<br>
+  1）行内式<br>
+  2）内嵌式：<pre><style type='text/css'></style></pre><br>
+  3）导入式：整个网页装载完后再装载css，如果网页比较大会先显示无样式的页面
+<pre>
+  <style type='text/css'>
+    @import('mycss.css))
+  </style></pre>
+  4）连接式：在网页主体装载之前装载css，网页从一开始显示就是带样式的
+  <pre><link href="mystyle.css" rel="stylesheet" type="text/css"/></pre></p>
