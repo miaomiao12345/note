@@ -117,6 +117,8 @@ es6先创建父类，调用super方法访问父类后，再通过修改this实�
   </style></pre>
   4）连接式：在网页主体装载之前装载css，网页从一开始显示就是带样式的
   <pre>
-  '<%link href="mystyle.css" rel="stylesheet" type="text/css"/%>'
-  </pre>
+  '<%link href="mystyle.css" rel="stylesheet" type="text/css"/%>'</pre>
+  https://zhidao.baidu.com/question/1672527584673373867.html
   </p>
+<p>
+21. promise、iterator、generator（*-yeild）、async-await：https://blog.csdn.net/Merciwen/article/details/80963279</p>
