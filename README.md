@@ -122,3 +122,6 @@ es6先创建父类，调用super方法访问父类后，再通过修改this实�
   </p>
 <p>
 21. promise、iterator、generator（*-yeild）、async-await：https://blog.csdn.net/Merciwen/article/details/80963279</p>
+<p>22. 无状态协议：下一次连接不记住这一次连接的信息。举个例子我和朋友出去吃饭 不需要每次报上姓名 联系方式 等 朋友就知道我是谁 这是有状态的
+
+而我去办事大厅 工作人员不会记得我是谁 每次去都要填表 出示身份证 这就是无状态的 tcp是有状态协议，udp是无状态的。</p>
