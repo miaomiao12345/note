@@ -134,3 +134,4 @@ es6先创建父类，调用super方法访问父类后，再通过修改this实�
 两种解决办法：1）es6的number.EPSILON常量；2） 把计算数字乘以10的n次方再除以10的N次方。(0.1*1000+0.2*1000)/1000===0.3</p>
 <p>26. js实现异步的几种方式https://www.cnblogs.com/zuobaiquan01/p/8477322.html</p>
 <p>27. localstorage：不同域名不能共享同一个localstorage；不同浏览器相同域名不能共享同一个localstorage；如果剩余空间不够存储当前数据，数据无法存入并报错</p>
+<p>28. vm.$emit(event,val):触发实例中的事件；vm.$on(event,callback):监听实例中的事件，事件发生的时候触发回调</p>
